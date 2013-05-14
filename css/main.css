@@ -89,7 +89,7 @@ textarea {
 			  display: inline-block;
 			  padding-top:9px;
   }
-  #mainSubNav  ul li.subNavFirst {
+  #mainSubNav  ul.subNavFirst>li:first-child{
 	          border-left:1px solid #6e7275;
   }
 
