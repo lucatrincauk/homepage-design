@@ -6,28 +6,92 @@
         <title></title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width">
-
+        
         <link rel="stylesheet" href="css/normalize.min.css">
         <link rel="stylesheet" href="css/grid.css">
         <link rel="stylesheet" href="css/main.css">
+        <link media="screen" type="text/css" rel="stylesheet" href="css/MainPage.css">
 
         <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+        <!--[if lt IE 9]>
+        <script src="js/vendor/html5shiv.js"></script>
+        <![endif]-->
     </head>
     <body>
         <header id="mainHeader">
-            <div class="container_12">             
-
-            </div>
+         <div class="container_12">             
+          <div id="mainHeaderTopNav">             
+               
+          </div>
+         </div>
         </header>
+        <section id="mainSubNav">             
+         <div class="container_12">
+          <div class="grid_10">
+           <ul>
+            <li class="subNavFirst"><a href="#">Security for Home</a></li>
+            <li><a href="#">Security for Business</a></li>
+           </ul>
+          </div>
+         </div>
+        </section>
         <section id="mainPromoHome">
-            <div class="container_12">               
-
+         <!-- banner rotator code from HQ team -->      
+        <div class="banner_cnt">
+            <div class="page-btn"></div>
+            <div class="left_btn"></div>
+            <div class="right_btn"></div>
+        <div id="banner_slider">
+            <div class="banner_item">
+                <div class="bottom_banners">
+                    <div class="bottom_banner first" >
+                        <h3>Browse products</h3>
+                        <p class="banner_txt">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        <div class="banner_btn">Lorem ipsum</div>
+                    </div>
+                    <div class="bottom_banner">
+                        <h3>Browse products</h3>
+                        <p class="banner_txt">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        <div class="banner_btn">Lorem ipsum</div>
+                    </div>
+                    <div class="bottom_banner">
+                       <h3>Browse products</h3>
+                        <p class="banner_txt">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        <div class="banner_btn">Lorem ipsum</div>
+                    </div>
+                </div>
             </div>
+            <div class="banner_item">
+                <div class="bottom_banners">
+                    <div class="bottom_banner first">
+                        <h3>Browse products</h3>
+                        <p class="banner_txt">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        <div class="banner_btn">Lorem ipsum</div>
+                    </div>
+                </div>
+            </div>
+            <div class="banner_item">
+                <div class="bottom_banners">
+                    <div class="bottom_banner first">
+                        <h3>Browse products</h3>
+                        <p class="banner_txt">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        <div class="banner_btn">Lorem ipsum</div>
+                    </div>
+                    <div class="bottom_banner">
+                        <h3>Browse products</h3>
+                        <p class="banner_txt">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        <div class="banner_btn">Lorem ipsum</div>
+                    </div>
+                </div>
+            </div>
+         </div>
+        </div>
+            <!-- /banner rotator code from HQ team -->
         </section>
         <section id="mainContent">            
             <div class="container_12">
-                <article class="grid_4">
-                    <h1></h1>
+                <article class="grid_4 alpha">
+                    <h3>Security for Home</h3>
                     <ul>
                         <li></li>
                         <li></li>
@@ -37,7 +101,7 @@
                     <div class="viewMore"></div>
                 </article>
                 <article class="grid_4">
-                    <h1></h1>
+                    <h3>Security for Business</h3>
                     <ul>
                         <li></li>
                         <li></li>
@@ -47,7 +111,7 @@
                     <div class="viewMore"></div>
                 </article>
                 <article class="grid_4">
-                    <h1></h1>
+                    <h3>News and Resources</h3>
                     <ul>
                         <li></li>
                         <li></li>
@@ -60,22 +124,36 @@
         </section>
         <section id="mainPromoBottom">
             <div class="container_12">
-                
+                <div class="grid_10">
+           
+          </div>
             </div>
         </section>
         <section id="mainSocialBottom">
             <div class="container_12">                
-
+           <div class="grid_10">
+            
+           </div>
             </div>
         </section>
-        <footer>
+        <footer id="mainFooter">
             <div class="container_12">                
-
+           <div class="grid_10">
+            
+           </div>
             </div>
         </footer>
 
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
+        <script src="js/vendor/jquery.carouFredSel-6.2.0-packed.js"></script>
         <script src="js/main.js"></script>
+        <script>
+              var previewContent = {
+                '1': "<img src='img/pure.png'><p>kaspersky<br/>PURE 3.0<br/>TOTAL SECURITY</p>",
+                '2': "<img src='img/pure.png'><p>kaspersky<br/>PURE 3.0<br/>TOTAL SECURITY</p>",
+                '3': "<img src='img/pure.png'><p>kaspersky<br/>PURE 3.0<br/>TOTAL SECURITY</p>"
+               };
+        </script>
     </body>
 </html>
